@@ -290,9 +290,7 @@ libmpris-qt5.so.1 libmpris-qt5-1 #MINVER#
  _ZN20MprisPlayerInterface18minimumRateChangedEd@Base 1.0.3
  _ZN20MprisPlayerInterface20canGoPreviousChangedEb@Base 1.0.3
  _ZN20MprisPlayerInterface21playbackStatusChangedERK7QString@Base 1.0.3
- _ZN20MprisPlayerInterface4SeekEx@Base 1.0.6.1-1
  _ZN20MprisPlayerInterface6seekedEx@Base 1.0.3
- _ZN20MprisPlayerInterface7OpenUriERK7QString@Base 1.0.6.1-1
  _ZN20MprisPlayerInterfaceC1ERK7QStringS2_RK15QDBusConnectionP7QObject@Base 1.0.3
  _ZN20MprisPlayerInterfaceC2ERK7QStringS2_RK15QDBusConnectionP7QObject@Base 1.0.3
  _ZN20MprisPlayerInterfaceD0Ev@Base 1.0.3
@@ -385,7 +383,6 @@ libmpris-qt5.so.1 libmpris-qt5-1 #MINVER#
  _ZN9QtPrivate19QVariantValueHelperI13QDBusArgumentE8metaTypeERK8QVariant@Base 1.0.6.1-1
  _ZN9QtPrivate28QVariantValueHelperInterfaceI20QAssociativeIterableE6invokeERK8QVariant@Base 1.0.6.1-1
  _ZN9QtPrivate28QVariantValueHelperInterfaceI4QMapI7QString8QVariantEE6invokeERKS3_@Base 1.0.3
- _ZN9QtPrivate7indexOfI14QSharedPointerI15MprisControllerES3_EEiRK5QListIT_ERKT0_i@Base 1.0.3
  _ZNK11MprisPlayer10canControlEv@Base 1.0.3
  _ZNK11MprisPlayer10fullscreenEv@Base 1.0.3
  _ZNK11MprisPlayer10loopStatusEv@Base 1.0.3

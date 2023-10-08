@@ -1,8 +1,9 @@
-qtmpris (1.0.6.1-1) UNRELEASED; urgency=medium
+qtmpris (1.0.6.1-1deepin1) unstable; urgency=medium
 
-  * update
+  [ LiChengGang ]
+  * update symbols
 
- -- Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>  Wed, 11 May 2022 14:12:54 +0800
+ -- LiChengGang <lichenggang@uniontech.com>  Sun, 08 Oct 2023 20:45:22 +0800
 
 qtmpris (1.0.6.1-1) unstable; urgency=medium
 
