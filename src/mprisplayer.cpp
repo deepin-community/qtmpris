@@ -60,7 +60,6 @@ MprisPlayer::MprisPlayer(QObject *parent)
     , m_fullscreen(false)
     , m_hasTrackList(false)
     , m_canControl(false)
-    , m_canShowInUI(true)
     , m_canGoNext(false)
     , m_canGoPrevious(false)
     , m_canPause(false)
@@ -258,22 +257,6 @@ void MprisPlayer::setCanControl(bool canControl)
 
     m_canControl = canControl;
     Q_EMIT canControlChanged();
-}
-
-bool MprisPlayer::canShowInUI() const
-{
-    return m_canShowInUI;
-}
-
-void MprisPlayer::setCanShowInUI(bool canShowInUI)
-{
-    if (m_canShowInUI == canShowInUI) {
-        return;
-    }
-
-    //Set whether to show lock screen controls
-    m_canShowInUI = canShowInUI;
-    Q_EMIT canShowInUIChanged();
 }
 
 bool MprisPlayer::canGoNext() const

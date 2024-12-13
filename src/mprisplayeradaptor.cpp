@@ -77,12 +77,6 @@ bool MprisPlayerAdaptor::canControl() const
     return static_cast<MprisPlayer *>(parent())->canControl();
 }
 
-bool MprisPlayerAdaptor::canShowInUI() const
-{
-    return static_cast<MprisPlayer *>(parent())->canShowInUI();
-}
-
-
 bool MprisPlayerAdaptor::canGoNext() const
 {
     MprisPlayer * const player = static_cast<MprisPlayer *>(parent());

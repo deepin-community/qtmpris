@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtmpris
-Source: https://git.sailfishos.org/mer-core/qtmpris
-Upstream-Contact: https://git.sailfishos.org/mer-core/qtmpris/issues
+Source: https://github.com/sailfishos/qtmpris
+Upstream-Contact: https://github.com/sailfishos/qtmpris/issues
 
 Files: *
 Copyright: 2015, Andres Gomez <andres.gomez@jolla.com>
@@ -9,12 +9,10 @@ Copyright: 2015, Andres Gomez <andres.gomez@jolla.com>
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2018, Yanhao Mo <yanhaocs@gmail.com>
-License: LGPL-2.1+
-
-Files: debian/*
-Copyright: 2020, Arun Kumar Pariyar <openarungeek@gmail.com>
-License: Expat
+Copyright:
+ 2018, Yanhao Mo <yanhaocs@gmail.com>
+ 2020, Arun Kumar Pariyar <openarungeek@gmail.com>
+License: LGPL-2.1+ or Expat
 
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or

@@ -172,7 +172,6 @@ class MprisPlayerAdaptor: public QDBusAbstractAdaptor
 "    <property access=\"read\" type=\"b\" name=\"CanPlay\"/>\n"
 "    <property access=\"read\" type=\"b\" name=\"CanPause\"/>\n"
 "    <property access=\"read\" type=\"b\" name=\"CanSeek\"/>\n"
-"    <property access=\"read\" type=\"b\" name=\"CanShowInUI\"/>\n"
 "    <property access=\"read\" type=\"b\" name=\"CanControl\">\n"
 "      <annotation value=\"false\" name=\"org.freedesktop.DBus.Property.EmitsChangedSignal\"/>\n"
 "    </property>\n"
@@ -186,9 +185,6 @@ public:
 public: // PROPERTIES
     Q_PROPERTY(bool CanControl READ canControl)
     bool canControl() const;
-
-    Q_PROPERTY(bool CanShowInUI READ canShowInUI)
-    bool canShowInUI() const;
 
     Q_PROPERTY(bool CanGoNext READ canGoNext)
     bool canGoNext() const;
