@@ -55,7 +55,6 @@ class MPRIS_QT_EXPORT MprisPlayer : public QObject,
 
     // Mpris2 Player Interface
     Q_PROPERTY(bool canControl READ canControl WRITE setCanControl NOTIFY canControlChanged)
-    Q_PROPERTY(bool canShowInUI READ canShowInUI WRITE setCanShowInUI NOTIFY canShowInUIChanged)
     Q_PROPERTY(bool canGoNext READ canGoNext WRITE setCanGoNext NOTIFY canGoNextChanged)
     Q_PROPERTY(bool canGoPrevious READ canGoPrevious WRITE setCanGoPrevious NOTIFY canGoPreviousChanged)
     Q_PROPERTY(bool canPause READ canPause WRITE setCanPause NOTIFY canPauseChanged)
@@ -112,9 +111,6 @@ public Q_SLOTS:
     // Mpris2 Player Interface
     bool canControl() const;
     void setCanControl(bool canControl);
-
-    bool canShowInUI() const;
-    void setCanShowInUI(bool canShowInUI);
 
     bool canGoNext() const;
     void setCanGoNext(bool canGoNext);
@@ -177,7 +173,6 @@ Q_SIGNALS:
 
     // Mpris2 Player Interface
     void canControlChanged();
-    void canShowInUIChanged();
     void canGoNextChanged();
     void canGoPreviousChanged();
     void canPauseChanged();
@@ -232,7 +227,6 @@ private:
 
     // Mpris2 Player Interface
     bool m_canControl;
-    bool m_canShowInUI; // Show In Lock Screen
     bool m_canGoNext;
     bool m_canGoPrevious;
     bool m_canPause;
